@@ -76,40 +76,40 @@ Dayflow is a **full-stack MERN HRMS** designed to digitize and streamline core H
 ### Attendance Routes
 
 
-GET /api/attendance (Admin)
-GET /api/attendance/me
-GET /api/attendance/week
-POST /api/attendance/mark
+- GET /api/attendance (Admin)
+- GET /api/attendance/me
+- GET /api/attendance/week
+- POST /api/attendance/mark
 
 
 ### Leave Routes
 
 
-GET /api/leaves (Admin)
-GET /api/leaves/me
-POST /api/leaves
-PATCH /api/leaves/:id/status (Admin)
+- GET /api/leaves (Admin)
+- GET /api/leaves/me
+- POST /api/leaves
+- PATCH /api/leaves/:id/status (Admin)
 
 
 ### Payroll Routes
 
 
-GET /api/payroll/me
-GET /api/payroll (Admin)
-POST /api/payroll (Admin)
-PATCH /api/payroll/:id (Admin)
+- GET /api/payroll/me
+- GET /api/payroll (Admin)
+- POST /api/payroll (Admin)
+- PATCH /api/payroll/:id (Admin)
 
 
 ### User Routes
 
 
-GET /api/users (Admin)
-GET /api/users/me
-PATCH /api/users/me
-POST /api/users/me/documents
-DELETE /api/users/me/documents/:index
-GET /api/users/:id (Admin)
-PATCH /api/users/:id (Admin)
+- GET /api/users (Admin)
+- GET /api/users/me
+- PATCH /api/users/me
+- POST /api/users/me/documents
+- DELETE /api/users/me/documents/:index
+- GET /api/users/:id (Admin)
+- PATCH /api/users/:id (Admin)
 
 
 ---
