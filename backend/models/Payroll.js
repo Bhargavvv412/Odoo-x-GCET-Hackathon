@@ -11,5 +11,4 @@ const payrollSchema = new mongoose.Schema({
   updatedAt: { type: Date },
   createdAt: { type: Date, default: Date.now }
 })
-
 module.exports = mongoose.model('Payroll', payrollSchema)
