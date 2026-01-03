@@ -67,10 +67,10 @@ Dayflow is a **full-stack MERN HRMS** designed to digitize and streamline core H
 
 ### Auth Routes
 
-POST /api/auth/register
-GET /api/auth/verify
-POST /api/auth/login
-GET /api/auth/me
+- POST /api/auth/register
+- GET /api/auth/verify
+- POST /api/auth/login
+- GET /api/auth/me
 
 
 ### Attendance Routes
